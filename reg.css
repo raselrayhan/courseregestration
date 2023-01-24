@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+} 
+body{
+    background-image: url(blue.jfif);
+    background-size: cover;
+    font-weight: bold;
+    
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    margin: 0 aut;
+    padding-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+    color: #fff;
+    width: 100%;
+    
+}
+img{
+    height: 150px;
+    width: 120px;
+    float: right;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    
+
+}
+
+.main h2{
+    font-size: 25px;
+    padding-top: 400px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 30px 0;
+    color: #fff;
+}
+.main p{
+    font-size: 15px;
+    margin: 10px 0;
+    padding-inline: 5px;
+}
+.main input{
+    font-size: 12px;
+    padding: 5px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+.option{
+    position: relative;
+    
+    top: -5px;
+    line-height: 40px;
+    width: 140px;
+    height: 25px;
+    border-radius: 5px;
+    padding: 0 22px;
+    font-size: ;
+    color: ;
+    outline: none;
+    overflow: hidden;
+    
+}
+.back{
+    text-decoration: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 1.5rem;
+            
+}
+
+.main button{
+    font-size: 15px;
+    font-weight: bold;
+    
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 30%;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(218, 210, 210);
+
+}
+.main button:hover{
+    color: red;
+}

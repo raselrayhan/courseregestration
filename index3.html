@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Online Registration</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reg.css">
+    
+    <style>
+        a{
+            color: white;
+        }
+        a:hover{
+            color: hotpink;
+        }
+    </style>
+</head>
+<body>
+    <a class="back" href="Homepage.html">HOME</a>
+    <a class="back" href="logout.php">Log Out</a>
+
+    <img src="nstu_logo.png" alt="NSTU LOGO">
+    <h1>Noakhali Science & Technology University</h1>
+    
+    <div class="main">
+        
+        <h2>Course Registration Form</h2>
+        <form class="register" action="connection2.php" method="POST">
+            
+            <p>Name of Student</p>
+            <input type="text" class="input-field" placeholder="Name of Student" name="name">
+            <p>Father's Name</p>
+            <input type="text" class="input-field" placeholder="Father's Name" name="fathername">
+            <p>Mother's Name</p>
+            <input type="text" class="input-field" placeholder="Mother's Name" name="mothername">
+            <br><p>Email</p>
+            <input type="email" class="input-field" placeholder="Email" name="email">
+            <p>Phone Number</p>
+            <input type="text" class="input-field" placeholder="Phone Number" name="mobile">
+            <br><p>Department</p>
+            <input type="text" class="input-field" placeholder="Department" name="department">
+            <br>
+            <p>Roll</p>
+            <input type="text" class="input-field" placeholder="Roll" name="roll">
+            <br><p>Hall</p>
+            <input type="text" class="input-field" placeholder="Hall Name" name="hallname">
+            <br><p>Faculty</p>
+            <input type="text" class="input-field" placeholder="Faculty" name="faculty">
+            <br><p>Session</p>
+            <input type="text" class="input-field" placeholder="Session" name="session">
+            <br><p>Year</p>
+            <input type="text" class="input-field" placeholder="Year" name="year">
+            <br><p>Term</p>
+            <input type="text" class="input-field" placeholder="Term" name="term">
+            
+            
+        
+           <p></p><button type="submit" name="submit">Registraion</button>
+        
+        </form>
+        
+    </div>
+    
+</body>
+</html>
